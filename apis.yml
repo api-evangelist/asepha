@@ -1,8 +1,33 @@
 aid: asepha
 name: Asepha
-description: Asepha is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Asepha is an AI workflow automation platform built specifically for pharmacies,
+  positioning itself as "the context graph for the therapy-start journey" with a stated
+  vision to make medication delays impossible. Its AI agents automate repetitive pharmacy
+  operations across automated prescription data entry, back-office work, 340B management
+  (TPA matching, accruals, purchase-order automation), medication reconciliation (Best
+  Possible Medication History), a conversational voice call assistant, benefits
+  verification and prior-authorization (BV/PA) automation, REMS compliance reporting, and
+  medication therapy review. The company reports outcomes such as a 32% reduction in
+  manual labour cost within one month and tasks completed 4x faster than baseline. Asepha
+  is SOC 2 Type 2 certified and HIPAA compliant, with AES-256 encryption at rest. Founded
+  by CEO Eunice Wu, PharmD and CTO Can Uncu, the company operates from New York, NY and
+  Toronto, ON, and is a Techstars portfolio company. This profile is maintained in the API
+  Evangelist network; Asepha publishes no public API, developer portal, or specifications
+  at this time.
 url: https://raw.githubusercontent.com/api-evangelist/asepha/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://asepha.ai/images/webclip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Pharmacy
+- Artificial Intelligence
+- Workflow Automation
+- AI Agents
+- Medication Management
+- Healthcare Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/asepha-domain-security.yml
 - type: Website
   url: https://asepha.ai/
+- type: About
+  url: https://asepha.ai/company
+- type: Blog
+  url: https://asepha.ai/insights
+- type: CaseStudies
+  url: https://asepha.ai/casestudies
+- type: Careers
+  url: https://asepha.ai/careers
+- type: Support
+  url: https://asepha.ai/contact
+- type: PrivacyPolicy
+  url: https://asepha.ai/privacy
+- type: TermsOfService
+  url: https://asepha.ai/tos
+- type: Compliance
+  url: https://asepha.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/asepha/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
